@@ -21,7 +21,7 @@ var style_InClassActivities_2 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 4.399999999999999 + size,
+        image: new ol.style.Circle({radius: 4.4 + size,
             stroke: new ol.style.Stroke({color: 'rgba(50,87,128,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1.52}), fill: new ol.style.Fill({color: 'rgba(72,123,182,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
